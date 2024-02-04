@@ -1,5 +1,5 @@
 # aspace_reorder_tool
-A tool to reorder container lists in ArchivesSpace
+A tool to reorder container lists in ArchivesSpace based on a csv.
 
 # 00_set_aspace_session
 Use this first to establish a session with ASpace.  Requires valid credentials and API base url saved in a file called config.py (example provided).  Sets the current session in a current_see.txt file.
