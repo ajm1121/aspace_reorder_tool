@@ -21,4 +21,4 @@ There are two versions of the tool:
 
 Things to note:  
 1) If any rows from the spreadsheet are removed, it appearts they will sort to the bootom of the container list in the order that they currently appear.
-2) As far as I can tell, archival objects from any collection can be moved into the container list of any other collection.  This could cause significant confusion if an object id is misentered.
+2) As far as I can tell, it does not appear that archival collections can be moved from one collection to another using this tool, so it is only for reorganization within a given collection.
