@@ -40,13 +40,13 @@ with open('01_reorder_tool/in/input.csv', 'r', encoding='utf8') as input_file:
             objectString += "&children[]="  # Append only if not the last row
 
 # objectString now has all IDs appended correctly
-print(objectString)
+print(f"Attempting to move {total_rows} archival objects...")
       
 try:
     moved_obj = movObj(parent_id[0], parent_id[1], objectString, 0, c)
-    print(moved_obj["status"])        
+    print(f"{moved_obj['status']} all {total_rows} archival objects.")        
 #Handles errors and logs them to the errors.log file
 except Exception as e:
-    error_message = f"Error processing row {row_number}: {e}"
+    error_message = f"Error processing: {e}"
     print(error_message)
     logging.error(error_message)

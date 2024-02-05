@@ -26,7 +26,7 @@ parent_id = get_record_info()
 
 print (f"{parent_id} is being updated.")
 
-#Open the input csv and get the DO records to update
+#Open the input csv
 with open('01_reorder_tool/in/input.csv', 'r', encoding='utf8') as input_file:
     csv_reader = csv.DictReader(input_file, delimiter=',')
     for row_number, row in enumerate(csv_reader, start=0):

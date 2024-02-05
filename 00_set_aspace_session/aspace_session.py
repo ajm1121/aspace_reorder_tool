@@ -23,6 +23,7 @@ response = requests.request("POST", url, headers=headers, data=payload)
 y = json.loads(response.text)
 
 print(y["session"])
+print("Type 'python 01_reorder_tool/reorder.py' to run the one by one tool or 'python 01_reorder_tool/reorder_multiple.py' to run the all at once tool.  DON'T FORGET: update input.csv before you run either tool.")
 
 #records the session token for use in other tools
 with open ('current_sess.txt', 'w') as c:
