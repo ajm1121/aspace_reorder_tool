@@ -44,7 +44,7 @@ print(f"Attempting to move {total_rows} archival objects...")
       
 try:
     moved_obj = movObj(parent_id[0], parent_id[1], objectString, 0, c)
-    print(f"{moved_obj['status']} all {total_rows} archival objects.")        
+    print(f"{moved_obj['status']} all {total_rows} archival objects.")       
 #Handles errors and logs them to the errors.log file
 except Exception as e:
     error_message = f"Error processing: {e}"
