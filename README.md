@@ -22,6 +22,6 @@ There are two versions of the tool:
 2) reorder_multiple.py: This tool with submit a single API call for the entire csv.  All of the ids in the Id column are concatenated into a single string which is passed as a parameter.  [WARNING: I am not clear on the limits around such a call.]  This version of the tool only inserts the csv into the position directly under the parent object (position 0).  This could be changed by editing the position variable in the function that calls the api from 0 to something else (movObj(parent_id[0], parent_id[1], objectString, [CHANGE THIS], c)).  CURRENT LARGEST NUMBER OF RECORDS UPDATED WITH THIS TOOL: 300
 
 Things to note:  
-1) If any rows from the spreadsheet are removed, it appears they will sort to the bootom of the container list in the order that they currently appear.
+1) If any rows from the spreadsheet are removed, it appears they will sort to the bottom of the container list in the order that they currently appear.
 2) As far as I can tell, it does not appear that archival objects can be moved from one collection to another using this tool, so it is only for reorganization within a collection.  For transferring objects to another resource, use the transfer tool available in the staff interface in edit mode.
 
