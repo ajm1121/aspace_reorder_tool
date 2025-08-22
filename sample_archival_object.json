@@ -1,0 +1,45 @@
+{
+    "lock_version": 0,
+    "position": 1,
+    "publish": false,
+    "ref_id": "be055dc6ad2d6926fcd1a71bcde2c3f6",
+    "title": "Test 1",
+    "display_string": "Test 1",
+    "restrictions_apply": false,
+    "created_by": "amunsell",
+    "last_modified_by": "amunsell",
+    "create_time": "2025-08-22T16:06:46Z",
+    "system_mtime": "2025-08-22T16:06:46Z",
+    "user_mtime": "2025-08-22T16:06:46Z",
+    "suppressed": false,
+    "is_slug_auto": false,
+    "level": "file",
+    "jsonmodel_type": "archival_object",
+    "external_ids": [],
+    "subjects": [],
+    "linked_events": [],
+    "extents": [],
+    "lang_materials": [],
+    "dates": [],
+    "external_documents": [],
+    "rights_statements": [],
+    "linked_agents": [],
+    "import_previous_arks": [],
+    "ancestors": [
+        {
+            "ref": "/repositories/2/resources/9290",
+            "level": "collection"
+        }
+    ],
+    "instances": [],
+    "notes": [],
+    "accession_links": [],
+    "uri": "/repositories/2/archival_objects/695925",
+    "repository": {
+        "ref": "/repositories/2"
+    },
+    "resource": {
+        "ref": "/repositories/2/resources/9290"
+    },
+    "has_unpublished_ancestor": true
+}

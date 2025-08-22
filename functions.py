@@ -38,3 +38,19 @@ def get_record_info():
                 return record_type, record_id
             except ValueError:
                 print("Invalid input. Please enter a valid number.")
+
+# Retrieve an ASpace object where x is an ASpace uri
+def objRec(x, sess):
+    url = config.aspacebaseurl + x
+    
+    # current session
+    s = open('./login_materials/current_sess.txt', 'r')
+    curSession = s.read()
+    
+    payload = {}
+    headers = {
+    'X-ArchivesSpace-Session': str(curSession)
+    }
+    response = requests.get(url, headers=headers)  
+    res_object = json.loads(response.text)
+    return res_object
